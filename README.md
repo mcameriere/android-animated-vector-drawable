@@ -6,7 +6,7 @@ Android Animated Vector Drawable Sample
 - Minimum API Level **API 21**: Android 5.0 (Lollipop)
 
 ## Create the vector 
-New Drawable resource file **vector_drawable.xml**
+In app/src/main/res/drawable, create a new Drawable resource file named **vector_drawable.xml**
 
     <?xml version="1.0" encoding="utf-8"?>
     <vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,7 +27,7 @@ New Drawable resource file **vector_drawable.xml**
     </vector>
 
 ## Create the animations
-- Create New Android Resource Directory **anim**.
+- Create a new Android Resource Directory named **anim**.
 - In app/src/main/res/anim create **path_morph.xml**.
     
     <?xml version="1.0" encoding="utf-8"?>
@@ -52,7 +52,8 @@ New Drawable resource file **vector_drawable.xml**
     </set>
 
 
-## Create the animated-vector
+## Create the animated vector
+
 In app/src/main/res/drawable create **animated_vector_drawable.xml**.
 
     <?xml version="1.0" encoding="utf-8"?>
@@ -67,7 +68,8 @@ In app/src/main/res/drawable create **animated_vector_drawable.xml**.
     </animated-vector>
 
 ## Add ImageView and Button to layout
-Modify **activity_main.xml**.
+
+Modify **activity_main.xml** as follows:
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -93,7 +95,8 @@ Modify **activity_main.xml**.
     </LinearLayout>
 
 ## Create button click handler
-Add **onClickAnimat**e method to **MainActivity** class.
+
+Add **onClickAnimate** method to **MainActivity** class.
 
     public class MainActivity extends AppCompatActivity {
 
@@ -106,4 +109,6 @@ Add **onClickAnimat**e method to **MainActivity** class.
         }
     }
 
-That's it. Run your app.
+## Run your app
+
+That's it. Click **Run 'app'**.
